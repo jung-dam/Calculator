@@ -12,6 +12,7 @@
 		EA3CBC9427E5BDCA00BCA250 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3CBC9327E5BDCA00BCA250 /* Images.xcassets */; };
 		EA3CBC9727E5BDCA00BCA250 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA3CBC9527E5BDCA00BCA250 /* MainMenu.xib */; };
 		EA3CBCA327E5BDCA00BCA250 /* _0220319Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3CBCA227E5BDCA00BCA250 /* _0220319Tests.m */; };
+		EAAD14352800552000890930 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD14342800552000890930 /* model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		EA3CBC9C27E5BDCA00BCA250 /* 20220319Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 20220319Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3CBCA127E5BDCA00BCA250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA3CBCA227E5BDCA00BCA250 /* _0220319Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0220319Tests.m; sourceTree = "<group>"; };
+		EAAD14342800552000890930 /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		EAAD14362800555A00890930 /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		EA3CBC8B27E5BDC900BCA250 /* 20220319 */ = {
 			isa = PBXGroup;
 			children = (
+				EAAD14362800555A00890930 /* model.h */,
+				EAAD14342800552000890930 /* model.m */,
 				EA3CBC8E27E5BDC900BCA250 /* AppDelegate.h */,
 				EA3CBC8F27E5BDC900BCA250 /* AppDelegate.m */,
 				EA3CBC9327E5BDCA00BCA250 /* Images.xcassets */,
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAAD14352800552000890930 /* model.m in Sources */,
 				EA3CBC9227E5BDC900BCA250 /* main.m in Sources */,
 				EA3CBC9027E5BDC900BCA250 /* AppDelegate.m in Sources */,
 			);
@@ -398,6 +404,7 @@
 				EA3CBCA827E5BDCA00BCA250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA3CBCA927E5BDCA00BCA250 /* Build configuration list for PBXNativeTarget "20220319Tests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +413,7 @@
 				EA3CBCAB27E5BDCA00BCA250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
